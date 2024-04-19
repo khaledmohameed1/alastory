@@ -106,3 +106,26 @@ footer {
   text-align: center;
   padding: 10px 0;
 }
+
+.content-text {
+  text-align: center;
+  margin: 50px auto 20px;
+  font-size: 20px;
+}
+
+.content-link {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  background-color: #66ca2c;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  transition: var(--main-transition);
+}
+
+.content-link:hover {
+  background-color: #193452;
+  color: white;
+}
